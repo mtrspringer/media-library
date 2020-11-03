@@ -13,7 +13,7 @@ const config: Config.InitialOptions = {
   transform: {
     "^.+\\.(t|j)s$": "ts-jest"
   },
-  coverageDirectory: "./coverage",
+  coverageDirectory: "../coverage",
   testEnvironment: "node"
 };
 
